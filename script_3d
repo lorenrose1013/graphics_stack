@@ -9,12 +9,14 @@ yrotate
 translate
 150 200 0
 apply
-display
+save
+pic1.png
 #clear the edge matrix, test the sphere
 clear
 sphere
 0 0 200
-display
+save
+pic2.png
 #rotate 90 degrees about y to check lines
 ident
 yrotate
@@ -22,7 +24,8 @@ yrotate
 translate
 250 250 0
 apply
-display
+save
+pic3.png
 #reset sphere, rotate 90 degrees about x to check lines
 ident
 translate
@@ -34,7 +37,8 @@ xrotate
 translate
 250 250 0
 apply
-display
+save
+pic4.png
 #reset sphere, rotate to make it look cool
 ident
 translate
@@ -48,12 +52,14 @@ zrotate
 translate
 250 250 0
 apply
-display
+save
+pic5.png
 #clear the edge matrix, test torus
 clear
 torus
 0 0 25 150
-display
+save
+pic6.png
 #rotate 90 degrees about y to check lines
 ident
 yrotate
@@ -61,7 +67,8 @@ yrotate
 translate
 250 250 0
 apply
-display
+save
+pic7.png
 #reset torus, rotate 90 degrees about x to check lines
 ident
 translate
@@ -73,7 +80,8 @@ xrotate
 translate
 250 250 0
 apply
-display
+save
+pic8.png
 #reset torus, rotate to make it look cool
 ident
 translate
@@ -85,7 +93,8 @@ yrotate
 translate
 250 250 0
 apply
-display
+save
+pic9.png
 #pretty? picture
 clear
 sphere
@@ -106,5 +115,6 @@ yrotate
 translate
 250 350 0
 apply
-display
+save
+pic10.png
 quit

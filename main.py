@@ -10,7 +10,10 @@ edges = []
 transform = new_matrix()
 
 if len(sys.argv) == 2:
-    f = open(sys.argv[1])
+	f = open(sys.argv[1])
+	parse_file( f, edges, transform, screen, color )
+	f.close()	
+else:
+	print "you suck"
 
-parse_file( f, edges, transform, screen, color )
-f.close()
+
