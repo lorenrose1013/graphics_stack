@@ -1,0 +1,138 @@
+push
+translate
+250 260 0
+xrotate 
+-30
+zrotate
+150
+torus 
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+torus
+0 0 25 100
+push
+translate
+0 40 0
+scale
+.8 .8 .8
+sphere
+0 0 100
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+push
+translate
+0 -50 0
+sphere
+0 0 100
+save
+ice_cream.png
+display
+quit

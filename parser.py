@@ -105,9 +105,10 @@ def parse_file( f, points, transform, screen, color ):
 
         elif cmd == 'clear':
             points = []
+            screen = new_screen()
 
         elif cmd in ['display', 'save' ]:
-            screen = new_screen()
+            #screen = new_screen()
             draw_polygons( points, screen, color )
             
             if cmd == 'display':
